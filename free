@@ -8,7 +8,7 @@ _G.enable = false
 _G.color = Color3.fromRGB(61, 21, 133)
 _G.toggle_keybind = "u" -- enable tracer and disable
 _G.swith_Gay = 't' -- press t and u will see a noti on the user ur tracer is on 
-_G.method = "MousePos" --had a stroke
+_G.method = "UpdateMousePos" --had a stroke
 
 if game.PlaceId == 2788229376 then
     _G.method = "MousePos"
