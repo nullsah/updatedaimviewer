@@ -1,0 +1,7 @@
+repeat task.wait() until game:IsLoaded() and (game:GetService('Players').LocalPlayer.Character or game:GetService('Players').LocalPlayer.CharacterAdded:Wait())
+--
+if getgenv().LuckyHub.Preload.UseGUI == false then
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c6a77c505945b8c8338028098b77e8ca.lua"))()
+elseif getgenv().LuckyHub.Preload.UseGUI == true then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CoolKid52321/LuckyHub/main/AntilockGUI"))()
+end
